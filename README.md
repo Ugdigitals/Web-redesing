@@ -1,37 +1,179 @@
-## Welcome to GitHub Pages
+<!DOCTYPE>
+<html>
+     <head>
+		   <title>Apache friends</title>
+		   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css">
+		   <link rel="stylesheet" href="main.css" type="text/css">
+		  
+	
+	 </head>
+	<body>
+<!--THIS IS THE HEADER-->
 
-You can use the [editor on GitHub](https://github.com/Ugdigitals/Web-redesing/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+   <nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">Apache Friends</a>
+			</div>
+		<ul class="nav navbar-nav">
+			  <li><a href="#">Download</a></li>
+			  <li><a href="#">Add-on</a></li>
+			  <li><a href="#">Hosting</a></li> 
+			  <li><a href="#">Community</a></li>
+			  <li><a href="#">About</a></li>
 
-### Markdown
+		</ul>	  
+	<form class="form-inline">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+   
+  </div>
+</nav>
+<!-- THE MAIN-SECTION-->
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+      <div class="container">
+			<div class="hero">
+				<div class="row">
+					<div class="col-md-12">
+					<h1>
+				<img src="images/logo2.png" style="width:50px; height:40px;" alt="logo">
+					<b> XAMPP</b> Apache + MariaDB + PHP +Perl
+					</h1>
+					</div>
+				</div>
+		 </div>
+			<div section="intro-xampp">
+				<div class="row">
+					<div class="col-md-6">
+	
+				<h2>What is XAMPP?</h2>
+					<h3>XAMPP is the most popular PHP development environment. 
+					</h3>
+					<p class="par">XAMPP is a completely free, easy to install Apache distribution containing MariaDB, 
+					PHP, and Perl. The XAMPP open source package has been set up to be incredibly easy to install and to use.
+					</p>
+			</div>
 
-```markdown
-Syntax highlighted code block
+					<div class="col-md-6">
+						<video width="400px" height="300px" controls>
+						<source src="video/xampp.mp4" type="video/mp4" alt="introduction to Xampp">
+						</video>
 
-# Header 1
-## Header 2
-### Header 3
+					</div>
+				</div>
+			</div>`
+			<div class="xampp">
+				<div class="row">
+					<div class="col-md-3">
+						<div class="arrow">
+					<h2><b>Download</b>
+					</h2>
+					<button type="button"class="btn btn-default">Click here for other versions</button>
+					<p></p>
+					
+					</div>
+					</div>
+						<div class="col-md-3">
+						<div class="bnt">
+							<h3>XAMPP For <b>Windows</b></h3>
+							<p> 7.3.3(PHP 7.3.3)</p>
+				</div>
+				</div>
+				<div class="col-md-3">
+					<div class="bnt">
+					<h3>XAMPP For <b>Linux</b></h3>
+					<p> 7.3.3(PHP 7.3.3)</p>
+					</div>
+					</div>
+					<div class="col-md-3">
+						<div class="bnt">
+					<h3>XAMPP For <b> OS</b></h3>
+					<p> XAMPP-VM(PHP 7.3.3)</p>
+					</div>
+				</div>
+				</div>
+	
+	</div>
+	</div>
+	
+	<div class="container"><!-- Main Section 2-->
+				<div class="container2">
+		<div class="row">
+			<div class="col-md-12">
+			<div class="bnt2">
+			<h1> New XAMPP-VM for OS X available!</h1>
+			<a href="#" class="btn"> try it </a>
+			
+			</div>
+			</div>
+		</div>
+	
+	
+		<div class="row">
+		 <div class="bnt3">
+			<div class="col-md-4">
+			
+			<h1>New XAMPP with PHP 7.3.3, 7.2.16 & 7.1.27</h1>
+				
+			</div>
+			
+			<div class="col-md-8">
+				<p>Hi Apache Friends!</p>
 
-- Bulleted
-- List
+				<p>We just released new versions of XAMPP for all platforms with PHP 7.3.3, 7.2.16 and 7.1.27.</p>
 
-1. Numbered
-2. List
+					<p>You can download these new installers at http://www.apachefriends.org/download.html.</p>
+			</div>
+			</div>
+		</div>
+			<div class="row">
+			 <div class="bnt4">
+				<div class="col-md-4">
+				<h2>About Apache Friends</h2>
+				<p> Apache Friends is a non-profit project to promote the Apache web server and is home to the XAMPP project. 
+					XAMPP is an easy to install Apache distribution containing MariaDB, PHP, and Perl. Read more » </p>
+				</div>
+				
+				<div class="col-md-4">
+				<h2> Community</h2>
+					<p>	XAMPP has been around for more than 10 years – there is a huge community behind it. You can get involved by joining our Forums, 
+						adding yourself to the Mailing List, and liking us on Facebook, 
+							following our exploits on Twitter, or adding us to your Google+ circles. </p>
+				</div>
+				
+				<div class="col-md-4">
+				<h2> Recent Discussions 
+				</h2>
+				<h3> XAMPP for Windows • Re: Error phpMyAdmin Xampp?
+				</h3>
+					<p>Sorry, please use a translator, i dont understand your english.... Read more »
+					</p>
+					
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Ugdigitals/Web-redesing/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+					<h3>XAMPP for Windows <b>. Re: Is it possible to rex xml via C# on xamp server?
+					</h3>
+						<p>Hi, you may use jquery to read is instead of C# because its linux operating system option I believe... Read more » 
+						</p>
+				</div>
+				</div>
+	</div>
+	</div>
+	
+	<!--row end-->
+	
+	</div><!-- End main seciton-->
+	<!--footer-->
+	<div id="footer">
+			
+	copyright&copy;Apache friends.
+						
+	</div>
+<script src="bootstrap/js/jquery-1.11.2.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+	
+</body>
+</html>
+         
+	 
